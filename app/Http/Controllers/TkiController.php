@@ -52,7 +52,7 @@ class TkiController extends Controller
         // ], $message);
         // dd($request->except('_token', 'submit'));
         Tki::create($request->except('_token', 'updated_at', 'submit'));
-        return redirect('/');
+        return redirect('/success');
         // return redirect('/success')->with('success', 'Data berhasil ditambahkan!');
     }
 }

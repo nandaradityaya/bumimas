@@ -36,10 +36,10 @@
 
     <link
       rel="shortcut icon"
-      href="assets/images/favicon.png"
+      href="assets/images/logo-bumimas.png"
       type="image/x-icon"
     />
-    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="assets/images/logo-bumimas.png" type="image/x-icon" />
 
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -69,8 +69,8 @@
               <!-- Logo Box -->
               <div class="pull-left logo-box">
                 <div class="logo">
-                  <a href="index.html"
-                    ><img src="assets/images/logo-6.png" alt="" title=""
+                  <a href="/"
+                    ><img src="assets/images/logo-bumimas.png" alt="" title="" width="120" height="20"
                   /></a>
                 </div>
               </div>
@@ -145,16 +145,50 @@
                       <li><a href="#faq">FAQ's</a></li>
 
                       <li><a href="#footer">Contact</a></li>
+                      @auth
+                  <li class="dropdown">
+                    <a href="#" style="color: #000;">
+                        {{ Auth::user()->name }}
+                    </a>
+                    <ul>
+                      <li><a href="{{ route('logout') }}"
+                        onclick="event.preventDefault();
+                                      document.getElementById('logout-form').submit();">
+                         {{ __('Logout') }}
+                     </a></li>
+                     <form id="logout-form" action="{{ route('logout') }}" method="POST">
+                        @csrf
+                    </form>
+                        {{-- <li>
+                          <form method="POST" action="{{ route('logout') }}">
+                            @csrf
+                        
+                            <button type="submit">Logout</button>
+                        </form>
+                        </li> --}}
+                    </ul>
+                  </li>
+                  @else
+                  <div class="button-box-navbar">
+                    <a href="/register" class="theme-btn btn-style-eleven"
+                      ><span class="txt"
+                        >Sign Up <i class="flaticon-next-3"></i></span
+                    ></a>
+                  </div>
+                  @endauth
                     </ul>
                   </div>
-                  <!-- Button Box -->
+
+                  
+                  
+                  {{-- <!-- Button Box -->
                   <div class="button-box">
                     <a href="/register" class="theme-btn btn-style-eleven"
                       ><span class="txt"
                         >Sign Up <i class="flaticon-next-3"></i></span
                     ></a>
                   </div>
-                  <!-- End Button Box -->
+                  <!-- End Button Box --> --}}
                 </nav>
               </div>
             </div>
@@ -167,8 +201,8 @@
           <div class="auto-container clearfix">
             <!--Logo-->
             <div class="logo pull-left">
-              <a href="index.html" title=""
-                ><img src="assets/images/logo-5.png" alt="" title=""
+              <a href="/" title=""
+                ><img src="assets/images/logo-bumimas.png" alt="" title="" width="100"
               /></a>
             </div>
             <!--Right Col-->
@@ -197,8 +231,8 @@
 
           <nav class="menu-box">
             <div class="nav-logo">
-              <a href="index.html"
-                ><img src="assets/images/logo-small.png" alt="" title=""
+              <a href="/"
+                ><img src="assets/images/logo-bumimas.png" alt="" title="" width="100"
               /></a>
             </div>
             <div class="menu-outer">

@@ -249,13 +249,11 @@
                 <div class="sec-title style-two">
                   <div class="title">About Us</div>
                   <h2>
-                    <span>Linking Talent with </span> <br />
-                    The Job Opportunities.
+                    <span>We Serve with </span> <br />
+                    Heart.
                   </h2>
                   <div class="text">
-                    Consectetur adipiscing eiusmod tempor incidunte result
-                    labore et dolore magna auis suspen amet consectetur
-                    adipiscing sed eiusmod temp didunt.
+                    PT BUMI MAS INDONESIA MANDIRI, established as a company that distributes workers abroad, our company offers cooperation with national and international companies especially in providing workers for corporations, hotels, hospitals, plantations, factories, constructions, etc.
                   </div>
                 </div>
                 <ul class="business-list">

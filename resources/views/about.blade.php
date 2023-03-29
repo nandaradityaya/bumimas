@@ -10,7 +10,7 @@
 						<div class="inner-column parallax-scene-1 wow fadeInLeft" data-wow-delay="0ms"
 							data-wow-duration="1500ms">
 							<div class="image" data-depth="0.40">
-								<img src="assets/images/resource/about-2.png" alt="" />
+								<img src="assets/images/resource/presdir-2.jpeg" alt="" width="500"/>
 							</div>
 						</div>
 					</div>
@@ -18,11 +18,11 @@
 					<div class="content-column col-lg-6 col-md-12 col-sm-12 mt-5">
 						<div class="inner-column">
 							<!-- Sec Title -->
-							<div class="sec-title">
+							<div class="sec-title style-two">
 								<div class="title">About Company</div>
-								<h2><span>We’re Lorem Ipsum</span> <br> Solutions Agency</h2>
-								<div class="text">Consectetur adipiscing sed eiusmod tempor incidunte ut labore et
-									dolore magna aliqua. Quis suspendise trices gravida. Risus commodo viverra maecenas
+								<h2><span>We Serve with</span> <br> Heart.</h2>
+								<div class="text">PT BUMI MAS INDONESIA MANDIRI, established as a company that distributes workers abroad, our company offers cooperation with national and international companies especially in providing workers for corporations, hotels, hospitals, plantations, factories, constructions, etc. <br> <br> This company profile is created as a basis for consideration, offers, coorperation, and information about our company. Our company has work experiences in sending manpower to many countries such as Malaysia, Singapore, Hong Kong, Taiwan, Saudi Arabia, etc. <br> <br> Hopefully our company profile can provide considerations for establishing good and lasting cooperation. Finally, we would like to thank you for the opportunity and taking the time to read this company profile. We look forward for the opportunity of working together with you.
+
 								</div>
 							</div>
 

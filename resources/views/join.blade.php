@@ -39,10 +39,10 @@
                           <label for="cabang" class="form-label">Cabang</label>
                           <select class="form-select" aria-label="Default select example" name="cabang">
                             <option selected>Pilih Cabang</option>
-                            <option value="Jakarta">Jakarta</option>
-                            <option value="Bandung">Bandung</option>
-                            <option value="Surabaya">Surabaya</option>
-                            <option value="Lampung">Lampung</option>
+                            <option value="JAKARTA">Jakarta</option>
+                            <option value="BANDUNG">Bandung</option>
+                            <option value="SURABAYA">Surabaya</option>
+                            <option value="LAMPUNG">Lampung</option>
       
                           </select>
                         </div>
@@ -53,9 +53,8 @@
                           <label for="sponsor" class="form-label">Sponsor</label>
                           <select class="form-select" aria-label="Default select example" name="kd_sponsor">
                             <option selected>Pilih Sponsor</option>
-                            <option value="1">S001BDG</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
+                            <option value="S001BDG">S001BDG</option>
+                            <option value="1234">1234</option>
                           </select>
                         </div>
                       </div>

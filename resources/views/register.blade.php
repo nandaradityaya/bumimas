@@ -21,9 +21,10 @@
                 </span>
                 <h5>Registration</h5>
                 <form action="register" method="POST">
+                  @csrf
                   <div class="contact-form">
                     <div class="form-group">
-                      <input type="text" class="form-control" name="nama" placeholder="Nama*" id="inputNama">
+                      <input type="text" class="form-control" name="name" placeholder="Nama*" id="inputNama">
                     </div>
                     <div class="form-group">
                       <input type="email" class="form-control" name="email" placeholder="Email*" id="inputEmail">
@@ -37,12 +38,13 @@
                         id="inputPassword">
                     </div>
                   </div>
+                  <div class="button-box">
+                    <button type="submit" class="theme-btn btn-style-two"><span class="txt">Register <i
+                          class="fa fa-angle-right"></i></span></button>
+                  </div>
                 </form>
   
-                <div class="button-box">
-                  <a href="service-detail.html" class="theme-btn btn-style-two"><span class="txt">Register <i
-                        class="fa fa-angle-right"></i></span></a>
-                </div>
+                
                 <div class="d-flex mt-3 mb-3">
                   <div class="ms-auto">
                     <a href="/login">Already have an acoount?</a>

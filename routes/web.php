@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TkiController;
 use App\Http\Controllers\AuthController;
+use Illuminate\Foundation\Auth\EmailVerificationRequest;
 // use Illuminate\Support\Facades\Auth;
 
 /*
@@ -31,10 +32,19 @@ Route::get('/join', function () {
 
 Route::get('/register', [AuthController::class, 'register']);
 Route::post('/register', [AuthController::class, 'registerProses']);
+Route::get('/email/verify', function () {
+    return view('auth.verify-email');
+})->middleware('auth')->name('verification.notice');
+
+Route::get('/email/verify/{id}/{hash}', function (EmailVerificationRequest $request) {
+    $request->fulfill();
+ 
+    return redirect('/');
+})->middleware(['auth', 'signed'])->name('verification.verify');
 
 Route::get('/login', function () {
     return view('login');
-});
+})->name('login');
 
 Route::get('/about', function () {
     return view('about');
@@ -42,5 +52,10 @@ Route::get('/about', function () {
 
 // Auth::routes(['verify' => true]);
 
-Route::get('/join', [TkiController::class, 'create']);
-Route::get('/success', [TkiController::class,
+Route::get('/join', [TkiController::class, 'create'])->middleware(['auth', 'verified']);
+Route::get('/success', [TkiController::class, 'success'])->middleware(['auth', 'verified']);
+Route::post('/store', [TkiController::class, 'store']);
+
+Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
+Route::post('/login', [AuthController::class, 'login']);
+Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
