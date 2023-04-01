@@ -40,6 +40,9 @@
       type="image/x-icon"
     />
     <link rel="icon" href="assets/images/logo-bumimas.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -264,12 +267,10 @@
                         <a href="/"><img src="assets/images/logo-bumimas.png" alt="" width="100" /></a>
                       </div>
                       <div class="text">
-                        Sit amet consectetur adipiscing elit sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua
-                        susene
+                        PT. BUMI MAS INDONESIA MANDIRI is here to provide solutions when it is difficult to find job opportunities by channeling workers abroad to Middle East, Asia, Europe, and America.
                       </div>
                       <!-- Social Box -->
-                      <ul class="social-box style-two">
+                      {{-- <ul class="social-box style-two">
                         <li>
                           <a href="https://www.facebook.com/" class="fa fa-facebook-f"></a>
                         </li>
@@ -282,7 +283,7 @@
                         <li>
                           <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
                         </li>
-                      </ul>
+                      </ul> --}}
                     </div>
                   </div>
   
@@ -290,11 +291,10 @@
                   <div class="footer-column col-lg-6 col-md-6 col-sm-12">
                     <div class="footer-widget links-widget">
                       <h5>Services</h5>
-                      footer
                       <ul class="nav-list">
-                        <li><a href="#">Flowing Labor</a></li>
+                        <li><a href="#">Ensure Worker Safety</a></li>
                         <li><a href="#">Job Opportunities</a></li>
-                        <li><a href="#">Linking Talent</a></li>
+                        <li><a href="#">Improving Quality</a></li>
                       </ul>
                     </div>
                   </div>
@@ -339,16 +339,22 @@
                       <ul class="list-style-one style-two">
                         <li>
                           <span class="icon flaticon-email"></span>
-                          bumimas@gmail.com
+                          bmim_pt@yahoo.com
                         </li>
                         <li>
-                          <span class="icon flaticon-telephone"></span> Call :
-                          021-123456
+                          <span class="icon flaticon-telephone"></span> Phone :
+                          62-21-84992468
                         </li>
                         <li>
-                          <span class="icon flaticon-map"></span>Jl. Raya Lorem
-                          No. 1, Kec. Lorem, Kabupaten Lorem, Jawa Barat,
-                          Indonesia
+                          <span class="icon flaticon-telephone"></span> Phone :
+                          62-812-8095-2809
+                        </li>
+                        <li>
+                          <span class="icon flaticon-telephone"></span> Fax :
+                          62-21-8471341
+                        </li>
+                        <li>
+                          <span class="icon flaticon-map"></span>Jl. Mesjid No. 31 RT. 04/RW. 10 Jatikramat, Kec. Jatiasih. Kota Bekasi, Jawa Barat 17421.
                         </li>
                       </ul>
                     </div>

@@ -43,7 +43,7 @@
                     <span class="fa fa-star"></span>
                     <span class="fa fa-star"></span>
                     <span class="fa fa-star"></span>
-                    <i>356 Reviews</i>
+                    <i>100+ Reviews</i>
                   </div>
                 </div>
   
@@ -133,7 +133,7 @@
                   data-textalign="['top','top','top','top']"
                   data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
                   <div class="button-box">
-                    <a href="#" class="theme-btn btn-style-two"><span class="txt">Get Started <i
+                    <a href="/join" class="theme-btn btn-style-two"><span class="txt">Get Started <i
                           class="fa fa-angle-right"></i></span></a>
                     <a href="#waysWorking" class="services">How It Works</a>
                   </div>
@@ -155,9 +155,7 @@
               Our Main Service
             </h2>
             <div class="text">
-              Sit amet consectetur adipiscing elit sed eiusmod tempor incididunt
-              labore <br />
-              dolore magna aliquauie suspendisse ultrices gravida.
+              Achieve productive endeavors, prosperous, and realization of <br> qualified, competitive and safe employees
             </div>
           </div>
   
@@ -166,10 +164,9 @@
             <div class="choice-block col-lg-4 col-md-6 col-sm-12">
               <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                 <span class="icon flaticon-checked-1"></span>
-                <h5><a href="service-detail.html">Flowing Labor</a></h5>
-                <div class="text">
-                  Sedut perspiciatis unde omn ates voluptate accusantium
-                  doloremsyc laudantium totam apere
+                <h5><a href="service-detail.html">Ensure Worker Safety</a></h5>
+                <div class="text" style="text-align: justify">
+                  Application of adequate occupational safety and health standards, proper training and supervision of workers, and use of safe and tested equipment and technology.
                 </div>
               </div>
             </div>
@@ -181,9 +178,8 @@
                 <h5>
                   <a href="service-detail.html">Job Opportunities</a>
                 </h5>
-                <div class="text">
-                  Sedut perspiciatis unde omn ates voluptate accusantium
-                  doloremsyc laudantium totam apere
+                <div class="text" style="text-align: justify">
+                  Opportunity to work is important for every individual to fulfill his life needs. We ensure that the employee selection process is carried out in a fair, transparent and impartial manner.
                 </div>
               </div>
             </div>
@@ -193,11 +189,10 @@
               <div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
                 <span class="icon flaticon-checked-1"></span>
                 <h5>
-                  <a href="service-detail.html">Linking Talent</a>
+                  <a href="#">Improving Quality</a>
                 </h5>
-                <div class="text" id="aboutUs">
-                  Sedut perspiciatis unde omn ates voluptate accusantium
-                  doloremsyc laudantium totam apere
+                <div class="text" id="aboutUs" style="text-align: justify">
+                  The training we provide can help workers improve their technical and non-technical skills, improve efficiency and effectiveness at work, and provide opportunities for workers to continue to develop.
                 </div>
               </div>
             </div>
@@ -285,7 +280,7 @@
                   <img src="assets/images/resource/team.jpg" alt="" />
                   <div class="content">
                     <div class="content-inner">
-                      25 Years Of Experience <br />
+                      10 Years+ Of Experience <br />
                       In Distribution Indonesian Workers
                     </div>
                   </div>
@@ -304,9 +299,7 @@
                     Then Coming Back
                   </h2>
                   <div class="text">
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis
+                    This means that while you are focused on work and achieving success in your career, you must also pay attention to the balance between your professional and personal life. Returning to family, friends, and the hobbies you love is very important for maintaining your mental and emotional health.
                   </div>
                 </div>
                 <div class="row clearfix">
@@ -496,15 +489,36 @@
         </div>
       </section>
       <!-- End Subscribe Section Two -->
+
+      	<!-- Crypto Sponsors Section -->
+    <section class="crypto-sponsors-section">
+      <div class="auto-container">
+    <div class="inner-container">
+      <div class="sponsors-outer">
+        <!-- Sponsors Carousel -->
+        <ul class="sponsors-carousel owl-carousel owl-theme">
+          <li class="slide-item ms-3"><figure class="image-box"><a href="#"><img src="assets/images/clients/Malaysia.png" alt=""></a></figure></li>
+          <li class="slide-item ms-3"><figure class="image-box"><a href="#"><img src="assets/images/clients/singapore.png" alt=""></a></figure></li>
+          <li class="slide-item ms-3"><figure class="image-box"><a href="#"><img src="assets/images/clients/Hongkong.png" alt=""></a></figure></li>
+          <li class="slide-item ms-3"><figure class="image-box"><a href="#"><img src="assets/images/clients/taiwan.png" alt=""></a></figure></li>
+          <li class="slide-item ms-3"><figure class="image-box"><a href="#"><img src="assets/images/clients/saudi-arabia.png" alt=""></a></figure></li>
+          <li class="slide-item ms-3"><figure class="image-box"><a href="#"><img src="assets/images/clients/uae.png" alt=""></a></figure></li>
+          <li class="slide-item ms-3"><figure class="image-box"><a href="#"><img src="assets/images/clients/qatar.png" alt=""></a></figure></li>
+        </ul>
+      </div>
+          </div>
+      </div>
+  </section>
+  <!-- End Crypto Sponsors Section -->
   
       <!-- Testimonial Section Four -->
       <section class="testimonial-section-four" id="testimonials">
         <div class="auto-container">
           <!-- Sec Title / Style Two -->
           <div class="sec-title style-two">
-            <div class="title">Clients Testimonials</div>
+            <div class="title">Workers Testimonials</div>
             <h2>
-              <span>We’ve 80+ Clients</span> <br />
+              <span>We’ve 80+ Workers</span> <br />
               Say About Solutions
             </h2>
           </div>
@@ -523,7 +537,7 @@
                     quasi architecto beatae see vitae dicta suntexplicabo
                   </div>
                   <div class="designation">
-                    David Silva, <span>Web Developer</span>
+                    Juni Sanjaya, <span>Qatar</span>
                   </div>
                 </div>
               </div>
@@ -543,7 +557,7 @@
                     quasi architecto beatae see vitae dicta suntexplicabo
                   </div>
                   <div class="designation">
-                    Thomas Kevin, <span>UI/UX Designer</span>
+                    Ardianto Sahaja, <span>Singapore</span>
                   </div>
                 </div>
               </div>
@@ -563,7 +577,7 @@
                     quasi architecto beatae see vitae dicta suntexplicabo
                   </div>
                   <div class="designation">
-                    Agus Wibowo, <span>Data Analyst</span>
+                    Agus Wibowo, <span>Saudi Arabia</span>
                   </div>
                 </div>
               </div>
@@ -583,7 +597,7 @@
                     quasi architecto beatae see vitae dicta suntexplicabo
                   </div>
                   <div class="designation">
-                    Rian Anggara, <span>Photographer</span>
+                    Rian Anggara, <span>Hong Kong</span>
                   </div>
                 </div>
               </div>
@@ -603,7 +617,7 @@
                     quasi architecto beatae see vitae dicta suntexplicabo
                   </div>
                   <div class="designation">
-                    Risky, <span>Software Engineer</span>
+                    Risky Saptaji, <span>Uni Arab Emirates</span>
                   </div>
                 </div>
               </div>
@@ -623,7 +637,7 @@
                     quasi architecto beatae see vitae dicta suntexplicabo
                   </div>
                   <div class="designation">
-                    Jajang Nurjaman, <span>Chef</span>
+                    Wilson Wibowo, <span>Singapore</span>
                   </div>
                 </div>
               </div>

@@ -20,17 +20,24 @@
                   <form method="POST" action="/store" id="contact-form">
                     @csrf
                     <div class="row clearfix">
-                      <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                      <div class="col-lg-4 col-md-4 col-sm-12 form-group">
                         <div class="mb-3 form-group">
                           <label for="noKtp" class="form-label">No. KTP</label>
                           <input class="form-control" type="number" name="nik" placeholder="No. KTP" id="noKtp" required />
                         </div>
                       </div>
       
-                      <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                      <div class="col-lg-4 col-md-4 col-sm-12 form-group">
                         <div class="mb-3 form-group">
                           <label for="" class="form-label">No. KK</label>
                           <input class="form-control" type="number" name="nokk" placeholder="No. KK" required />
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-md-4 col-sm-12 form-group">
+                        <div class="mb-3 form-group">
+                          <label for="" class="form-label">Kode PC</label>
+                          <input class="form-control" type="number" name="kodepc" placeholder="Kode PC" required />
                         </div>
                       </div>
       
@@ -43,7 +50,6 @@
                             <option value="BANDUNG">Bandung</option>
                             <option value="SURABAYA">Surabaya</option>
                             <option value="LAMPUNG">Lampung</option>
-      
                           </select>
                         </div>
                       </div>
@@ -67,9 +73,16 @@
                             <option value="Qatar">Singapore</option>
                             <option value="Hongkong">Hongkong</option>
                             <option value="Taiwan">Taiwan</option>
+                            <option value="Brunei">Brunei Darussalam</option>
                             <option value="SaudiArab">Saudi Arabia</option>
                             <option value="UnitedArabEmirates">United Arab Emirates</option>
                             <option value="Qatar">Qatar</option>
+                            <option value="Kuwait">Kuwait</option>
+                            <option value="Oman">Oman</option>
+                            <option value="UnitedKingdom">United Kingdom</option>
+                            <option value="UnitedStates">United States</option>
+                            <option value="Poland">Poland</option>
+                            <option value="NewZeland">New Zeland</option>
                           </select>
                         </div>
                       </div>
@@ -128,6 +141,7 @@
                             <option value="D1">D1</option>
                             <option value="D2">D2</option>
                             <option value="D3">D3</option>
+                            <option value="D4">D4</option>
                             <option value="S1">S1</option>
                             <option value="S2">S2</option>
                             <option value="S3">S3</option>
@@ -226,6 +240,14 @@
                           <label for="inputProvinsi" class="form-label">Provinsi</label>
                           <input type="text" class="form-control" name="al_prop" placeholder="Provinsi*" id="inputProvinsi"
                             value="{{ old('al_prop') }}">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12 col-md-12 col-sm 12 mb-4">
+                        <div class="form-group">
+                          <label for="inputHslWwc" class="form-label">HSL WWC</label>
+                          <input type="text" class="form-control" name="hsl_wwc" placeholder="HSL WWC*" id="inputHslWwc"
+                            value="{{ old('hsl_wwc') }}">
                         </div>
                       </div>
       
